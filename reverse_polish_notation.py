@@ -19,7 +19,7 @@ class reverse_polish_notation:
 
     def parse_ex(self, e):
         """
-        convert incomeing expression string to a list of args
+        convert incoming expression string to a list of args
         """
         result = '(' + e + ')'  # add brackets
         # replace unary minus/plus after [-+*/(] with the '(0-number)' string
